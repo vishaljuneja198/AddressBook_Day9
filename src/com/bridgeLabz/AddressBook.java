@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class AddressBook {
     static Scanner sc = new Scanner(System.in);
-
     ArrayList<Contacts> list = new ArrayList<>();
 
     public void contactList() {
@@ -33,6 +32,7 @@ public class AddressBook {
         Contacts cList = new Contacts(firstName, lastName, address, city, state, phone, email);
 
         list.add(cList);
+
 
     }
 }
